@@ -11,10 +11,13 @@ body {
     flex-wrap: wrap;
     width: 500px;
     height: 500px;
-    border: 2px solid red;
+    border: 1px solid red;
 }
 
+
+
 #etchDiv {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
